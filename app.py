@@ -51,6 +51,3 @@ def predict():
                                lr_pred=f'Predicted Age: {lr_prediction}',
                                rf_pred=f'Predicted Age: {rf_prediction}',
                                best_model_info=f'Recommended Model: {best_model_name}')
-
-if __name__ == "__main__":
-    app.run(debug=True)
